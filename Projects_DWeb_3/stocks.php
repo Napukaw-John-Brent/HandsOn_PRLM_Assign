@@ -8,6 +8,8 @@ $dishes = [
     'Sweet Madame' => ['price' => 3.99, 'stock' => 25],
     'Mondstadt Hash Brown' => ['price' => 2.99, 'stock' => 30],
     'Adeptus Temptation' => ['price' => 15.99, 'stock' => 10],
+    'Fisherman\'s Toast' => ['price' => 4.99, 'stock' => 8],
+    'Roasted Chicken' => ['price' => 1.99, 'stock' => 50],
 ];
 
 $tax = 20;
