@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:900|Raleway:500,700");
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #f5f1e8; 
+  color: #5c4b37;            
+  margin: 0px;
+  background-size: 245px 380px;
+  background-position: right top;
+  background-repeat: repeat-y;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  padding: 10px 20px 12px 20px;
+  margin: 0px;
+  color: #b8860b;             
+  background-color: #2c1810;  
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 20px;
+  margin: 0px;
+  color: #b8860b;           
+}
+
+p {
+  padding: 6px 20px 6px 20px;
+  margin: 0px;
+}
+
+table {
+  background-color: #f5f1e8; 
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid #b8860b;  
+  border-spacing: 0px;
+}
+  
+th {
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 0.75em;
+  letter-spacing: 0.2em;
+  padding: 5px 10px;
+  background-color: #b8860b;  
+  color: #f5f1e8;            
+}
+  
+td {
+  padding: 5px 10px;
+}
+
+a {
+  color: #b8860b;          
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-style: normal;
+  text-decoration: none;
+}
+
+nav {
+  padding: 0.5em;
+  background-color: #2c1810; 
+}
+
+nav a {
+  text-transform: uppercase;
+  padding: .5em;
+}
+
+nav a:hover {
+  color: #ffd700;           
+}
+ 
+.button {
+  background-color: #b8860b; 
+  color: #f5f1e8;            
+  border-color: #b8860b;
+  border-radius: 300px;
+  -webkit-transition: .3s background-color linear;
+  -moz-transition: .3s background-color linear;
+  -o-transition: .3s background-color linear;
+  transition: .3s background-color linear;
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 1px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background-color: #d4af37;
+  border-radius: 300px;
+  -webkit-transition: .1s background-color linear;
+  -moz-transition: .1s background-color linear;
+  -o-transition: .1s background-color linear;
+  transition: .1s background-color linear;
+  color: #f5f1e8;
+}
+  
+.offer {
+  text-transform: uppercase;  
+}
+
+footer {
+  background-color: #2c1810;
+  padding: 15px;
+  color: #f5f1e8;
+  text-align: center;
+  margin-top: 30px;
+  /* Remove any position properties */
+  position: relative;
+  width: 100%;
+}
+.legendary {
+  color: #ff8a00; 
+}
+
+.epic {
+  color: #c13fff; 
+}
+
+.common {
+  color: #8b7355; 
+}
